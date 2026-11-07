@@ -19,6 +19,6 @@ do {
     $b++;
 }
 while ($b <= 10);
-// ex => file clean up 
+// ex => file clean up
 
 ?>
