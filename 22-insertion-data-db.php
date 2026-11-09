@@ -56,12 +56,11 @@ else{
 // $phone = $_POST['phone'];
 // $salary = $_POST['salary'];
 // $emp_name = $_POST['emp-name'];
-
 $phone = 44445555;
 $salary =200000000;
 $emp_name = "sahil";
 
-$sql_insertion = "INSERT INTO `mine` ( `phone`, `salary`, `emp_name`) VALUES ( $phone, $salary,'$emp_name');"; // wrap in single quote if it is a string (varchar);
+$sql_insertion = "INSERT INTO `mine` ( `phone`, `salary`, `emp_name`) VALUES ( $phone, $salary,'$emp_name');"; // wrap in single quote if it is a string (varchar)
 
 $sql_insertion_res = mysqli_query($conn , $sql_insertion);
 if(!$sql_insertion_res){
