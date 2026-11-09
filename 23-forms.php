@@ -74,6 +74,7 @@ $conn = mysqli_connect("$server_name","$user_name","$pass_word","$db_name");
 
 // check connection
 
+
 if($conn){
     // die("Connection failed: ".mysqli_connect_error())."<br>";// how to show better msg
       
