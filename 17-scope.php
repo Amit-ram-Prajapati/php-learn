@@ -11,6 +11,6 @@ global $a;
 
 // echo var_dump($GLOBALS);
 echo ($GLOBALS["a"]);
-echo var_dump($GLOBALS["a"]);
+// echo var_dump("$a");
 
 ?>
